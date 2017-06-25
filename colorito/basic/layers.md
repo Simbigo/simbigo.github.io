@@ -9,7 +9,7 @@ In the "Quick Start" section, you could see that we loaded the image using the `
 
 There are several ways to add new layers to an image.
 
-1. A clean layer with the specified dimensions will be created.
+A. A clean layer with the specified dimensions will be created.
 
 ```php
 <?php
@@ -20,7 +20,7 @@ $image = new Image();
 $image->createLayer(200, 200);
 ```
 
-2. Create a layer from the image file.
+B. Create a layer from the image file.
 
 ```php
 <?php
@@ -31,7 +31,7 @@ $image = new Image();
 $image->createLayerFromFile('path/to/file.jpg');
 ```
 
-3. By creating a layer object yourself, you can add both a blank and a layer based on the image.
+C. By creating a layer object yourself, you can add both a blank and a layer based on the image.
 
 ```php
 <?php
