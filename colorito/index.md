@@ -1,4 +1,7 @@
 {% include_relative _sidebar.md %}
+---
+layout: colorito
+---
 
 ## Colorito
 
