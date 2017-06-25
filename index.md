@@ -1,2 +1,2 @@
 
-[Colorito](_colorito/index.md)
+[Colorito](colorito/index.md)
