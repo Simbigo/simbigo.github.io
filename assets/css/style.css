@@ -101,3 +101,15 @@ footer {
     display: inline-block;
     margin-right: 30px;
 }
+
+.home-panel a {
+    display: block;
+    padding: 38px 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #E74C3C;
+}
+
+.home-panel a:hover {
+    background: #f4f9ff;
+}
