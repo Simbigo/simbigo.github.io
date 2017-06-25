@@ -1,0 +1,4 @@
+ * Crop
+ * Flip
+ * Flop
+ * Opacity
