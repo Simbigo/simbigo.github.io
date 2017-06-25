@@ -24,7 +24,7 @@ body {
 .sidebar-header .title {
     color: #e6ecff;
     text-align: left;
-    padding: 21px 0;
+    padding: 0 0 20px 0;
 }
 
 article{
