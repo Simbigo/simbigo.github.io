@@ -13,6 +13,12 @@ body {
     color: #fff;
 }
 
+.sidebar-header {
+    color: #e6ecff;
+    text-align: left;
+    padding: 21px 0;
+}
+
 article{
     margin-bottom: 40px;
     padding: 0 5% 0;
@@ -56,7 +62,7 @@ article h4 a:hover {
     margin-right: 20px;
 }
 
-.page-header {
+h1 {
     color: #e74c3c;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
