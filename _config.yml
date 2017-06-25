@@ -1,2 +1,11 @@
-collections:
-  - colorito
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "colorito"
+    values:
+      layout: "colorito"

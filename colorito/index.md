@@ -1,8 +1,3 @@
-{% include_relative _sidebar.md %}
----
-layout: colorito
----
-
 ## Colorito
 
 PHP image manipulation library. The library based on ImageMagick tools (Imagick extension). 
