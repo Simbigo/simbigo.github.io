@@ -24,3 +24,4 @@ composer require simbigo/colorito
 use Simbigo\Colorito\Image\Image;
 
 Image::makeFromFile('source.jpg')->saveAs('result.png');
+```
