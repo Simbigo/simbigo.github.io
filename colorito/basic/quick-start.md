@@ -5,6 +5,8 @@
 The simple way to load a image is call static method ```makeFromFile()```:
 
 ```php
+<?php
+
 use Simbigo\Colorito\Image\Image;
 
 $image = Image::makeFromFile('path/to/source.jpg');
@@ -15,6 +17,8 @@ $image = Image::makeFromFile('path/to/source.jpg');
 If you want change format of the source image, just save it with necessary extension:
 
 ```php
+<?php
+
 use Simbigo\Colorito\Image\Image;
 
 $image = Image::makeFromFile('path/to/source.jpg');
