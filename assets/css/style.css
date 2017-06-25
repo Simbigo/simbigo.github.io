@@ -24,8 +24,8 @@ article{
     margin-bottom: 20px;
 }
 
-article div a, article pre a { color: #2c3e50; }
-article div a:hover, article pre a:hover { color: #2c3e50; text-decoration: none; }
+article div a, article pre a { color: #E74C3C; }
+article div a:hover, article pre a:hover { color: #fb4d3e; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
