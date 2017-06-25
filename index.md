@@ -1,2 +1,0 @@
-
-[Colorito](colorito/index.md)
