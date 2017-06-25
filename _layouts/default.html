@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -9,6 +9,8 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="{{ '/assets/js/jquery.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <script src="{{ '/assets/js/app.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
 </head>
 
@@ -17,106 +19,32 @@
 <div class="col-sm-3 sidebar">
     <!-- sidebar.html -->
     <header class="sidebar-header" role="banner">
-        <a href="/dbyll/">
-            <img src="//www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=150" class="img-circle" />
+        <a href="#">
+            <img src="//www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=50" class="img-circle"/>
         </a>
         <h3 class="title">
-            <a href="/dbyll/">dbyll</a>
+            <a href="#">Simbigo</a>
         </h3>
     </header>
-
-
-    <div id="bio" class="text-center">
-        Your stylish, minimalist theme!
-    </div>
-
-
-    <div id="contact-list" class="text-center">
-        <ul class="list-unstyled list-inline">
-
-            <li>
-                <a class="btn btn-default btn-sm" href="https://github.com/dbtek">
-                    <i class="fa fa-github-alt fa-lg"></i>
-                </a>
-            </li>
-
-
-            <li>
-                <a class="btn btn-default btn-sm" href="https://twitter.com/dbtek">
-                    <i class="fa fa-twitter fa-lg"></i>
-                </a>
-            </li>
-
-
-            <li>
-                <a class="btn btn-default btn-sm" href="mailto:dbyll@ismaildemirbilek.com">
-                    <i class="fa fa-envelope fa-lg"></i>
-                </a>
-            </li>
-
-        </ul>
-        <ul id="contact-list-secondary" class="list-unstyled list-inline">
-
-            <li>
-                <a class="btn btn-default btn-sm" href="https://pinterest.com/asd123">
-                    <i class="fa fa-pinterest fa-lg"></i>
-                </a>
-            </li>
-
-
-            <li>
-                <a class="btn btn-default btn-sm" href="https://linkedin.com/in/asd123">
-                    <i class="fa fa-linkedin fa-lg"></i>
-                </a>
-            </li>
-
-            <li>
-                <a class="btn btn-default btn-sm" href="/dbyll/feed.xml">
-                    <i class="fa fa-rss fa-lg"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
     <!-- sidebar.html end -->
 
 </div>
 
 <div class="col-sm-9 col-sm-offset-3">
     <div class="page-header">
-        <h1>dbyll </h1>
+        <h1>{{ site.github.repository_name}}</h1>
     </div>
-
-    <!-- project-block -->
-    <ins class="adsbygoogle pull-right"
-         style="display:inline-block;width:300px;height:250px"
-         data-ad-client="ca-pub-7616772085785107"
-         data-ad-slot="7971084020"></ins>
-
-
 
     <article class="home">
 
         {{ content }}
 
-  <span class="post-date">
-
-    November
-    15th,
-
-    2013
-  </span>
 
         <h2>
-            <a href="/dbyll/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a>
+            <a href="#">Hello World!</a>
         </h2>
 
         <div>
-
-            <p><strong>dbyll</strong> is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.</p>
-
-            <p><strong>dbyll</strong> is brought to you by <strong><a href="http://ismaildemirbilek.com">dbtek</a></strong>. Open sourced under <a href="http://opensource.org/licenses/MIT">MIT</a> license.</p>
-
-            <h3 id="dbyll-is-on-github">dbyll is on GitHub</h3>
 
             <p><a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a></p>
 
@@ -128,13 +56,7 @@
 
     <article class="home">
 
-  <span class="post-date">
 
-    November
-    15th,
-
-    2013
-  </span>
 
         <h2>
             <a href="/dbyll/general/setup/demo/2013/11/15/configuration.html">Configuration</a>
@@ -144,7 +66,8 @@
 
             <p>In your config file change these settings</p>
 
-            <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">title</span><span class="pi">:</span> <span class="s">dbyll</span>
+            <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span
+                    class="s">title</span><span class="pi">:</span> <span class="s">dbyll</span>
 <span class="s">disqus</span><span class="pi">:</span> <span class="s">dbyll-ghost</span> <span class="c1"># disqus short name</span>
 <span class="s">author</span><span class="pi">:</span>
   <span class="s">name</span><span class="pi">:</span> <span class="s">yourname</span>
@@ -155,8 +78,8 @@
   <span class="s">linkedin</span><span class="pi">:</span> <span class="s">asd123</span>
   <span class="s">resume</span><span class="pi">:</span> <span class="s">asd123</span>
   <span class="s">bio</span><span class="pi">:</span> <span class="s">Your stylish,  minimalist theme!</span>
-  <span class="s">email_md5</span><span class="pi">:</span> <span class="s">md5ofemail</span>  </code></pre></figure>
-
+  <span class="s">email_md5</span><span class="pi">:</span> <span class="s">md5ofemail</span>  </code></pre>
+            </figure>
 
 
         </div>
@@ -242,7 +165,8 @@
     <footer>
         <hr/>
         <p>
-            &copy; 2017 dbyll with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+            &copy; 2017 dbyll with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a
+                href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
         </p>
     </footer>
 </div>
