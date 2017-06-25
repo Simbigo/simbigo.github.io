@@ -13,3 +13,51 @@ body {
     background-color: #2c3e50;
     color: #fff;
 }
+
+article{
+    margin-bottom: 40px;
+    padding: 0 5% 0;
+}
+
+.article_body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article div a, article pre a { color: #2c3e50; }
+article div a:hover, article pre a:hover { color: #2c3e50; text-decoration: none; }
+article img { max-width: 100%; }
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f2756a;
+}
+
+article h1 a,
+article h2 a,
+article h3 a,
+article h4 a {
+    color: #f2756a;
+}
+article h1 a:hover,
+article h2 a:hover,
+article h3 a:hover,
+article h4 a:hover {
+    color: #e74c3c;
+}
+
+.author .author-image {
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
