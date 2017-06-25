@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="{{ '/assets/js/jquery.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <script src="{{ '/assets/js/app.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+</head>
+
+<body>
+
+<div class="col-sm-3 sidebar">
+    <!-- sidebar.html -->
+    <header class="sidebar-header" role="banner">
+        <h3 class="title">
+            {{ site.github.owner_name }}
+        </h3>
+        <hr/>
+
+        <h4>
+            Colorito
+        </h4>
+
+    </header>
+
+    {% include_relative colorito/_sidebar.md %}
+    <!-- sidebar.html end -->
+
+</div>
+
+<div class="col-sm-9 col-sm-offset-3">
+    <div class="page-header">
+        <h1>{{ site.github.repository_name}}</h1>
+    </div>
+
+    <div class="row">
+        <article class="home">
+            <div class="col-sm-10">
+                {{ content }}
+            </div>
+
+        </article>
+    </div>
+
+    <footer class="row">
+        <div class="col col-xs-12">
+            <hr/>
+            <p>
+
+            </p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
