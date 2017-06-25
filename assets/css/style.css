@@ -76,10 +76,9 @@ article h4 a:hover {
 h1 {
     color: #e74c3c;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-    border-bottom: 1px solid #eee;
 }
 
-.article h1 {
+article h1 {
     display: none;
 }
 
