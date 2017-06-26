@@ -16,7 +16,7 @@ $image->createLayer(500, 50);
 $image->saveAs('solid_green.jpg');
 ```
 
-![solid.jpg](/assets/colorito/canvas-creation/solid_green.jpg)
+![solid.jpg](/assets/resources/colorito/canvas-creation/solid_green.jpg)
 
 **B. Set background on create the layer.**
 
@@ -31,7 +31,7 @@ $image->createLayer(500, 50, new Color('lightblue'));
 $image->saveAs('solid_blue.jpg');
 ```
 
-![solid.jpg](/assets/colorito/canvas-creation/solid_blue.jpg)
+![solid.jpg](/assets/resources/colorito/canvas-creation/solid_blue.jpg)
 
 **C. Use Fill effect.**
 
@@ -49,4 +49,4 @@ $image->createLayer(500, 50)->effect($fill);
 $image->saveAs('solid_gold.jpg');
 ```
 
-![solid.jpg](/assets/colorito/canvas-creation/solid_gold.jpg)
+![solid.jpg](/assets/resources/colorito/canvas-creation/solid_gold.jpg)
