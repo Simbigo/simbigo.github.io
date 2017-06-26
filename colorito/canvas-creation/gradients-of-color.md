@@ -43,7 +43,7 @@ $colors = [
 $gradient = new LinearGradient(new Color('white'), new Color('white'));
 $image = new Image();
 $image->createLayer(100, 100)->effect($gradient);
-foreach ($colors as $i => $color) {
+foreach ($colors as $color) {
     $gradient->setStartColor($color['startColor']);
     $gradient->setEndColor($color['endColor']);
 
