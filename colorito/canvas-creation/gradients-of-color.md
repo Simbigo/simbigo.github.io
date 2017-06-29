@@ -1,7 +1,7 @@
 # Gradients of color
 
 
-As you saw above you can create canvases of solid colors easy enough. But sometimes you want something more interesting. And Imager provides a number of special effects that will let you do this.
+As you saw above you can create canvases of solid colors easy enough. But sometimes you want something more interesting. And Colorito provides a number of special effects that will let you do this.
 
 One of the most common ways to create a image is gradient. 
 
