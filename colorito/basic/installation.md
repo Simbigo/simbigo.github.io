@@ -21,6 +21,8 @@ composer require simbigo/colorito
 ### Usage
 
 ```php
+<?php
+
 use Simbigo\Colorito\Image\Image;
 
 Image::makeFromFile('source.jpg')->saveAs('result.png');
