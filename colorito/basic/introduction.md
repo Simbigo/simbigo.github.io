@@ -15,3 +15,9 @@ Many examples and descriptions were taken from the ImageMagick documentation and
 I generally use the JPEG formats for images, but in many examples, I use an image in PNG format. The PNG image format supports images with semi-transparent pixels. In this case I use a "checkerboard" pattern for background of the image. I hope, it will be useful.
  
 ![transparent.png](/assets/resources/colorito/transparent.png)
+
+
+### Supported Image Formats
+
+ImageMagick supports reading over 100 major file formats (not including sub-formats). 
+See [ImageMagick documentation](https://www.imagemagick.org/script/formats.php#supported) to get full list.
