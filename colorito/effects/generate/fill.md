@@ -2,14 +2,6 @@
 
 The Fill effect fills specified masks with a specified color.
 
-##### __construct(Color $color, float $opacity = 1.0)
-##### apply(Imagick $canvas)
-##### getColor(): Color
-##### getOpacity(): float
-##### setColor(Color $color)
-##### setOpacity(float $opacity)
-
-
 **Example:**
 
 ```php
