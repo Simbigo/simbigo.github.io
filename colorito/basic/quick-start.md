@@ -23,5 +23,20 @@ use Simbigo\Colorito\Image\Image;
 
 $image = Image::makeFromFile('path/to/source.jpg');
 $image->saveAs('path/to/result.png');
+````
+
+### Blank images
+
+You can also create a blank image:
+
+```php
+<?php
+
+use Simbigo\Colorito\Image\Image;
+
+$image = new Image();
+$image->saveEmptyAs(500, 120, 'blank.png');
 ```
+
+![blank.png](/assets/resources/colorito/basic/blank.png)
 

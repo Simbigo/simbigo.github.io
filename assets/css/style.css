@@ -45,6 +45,10 @@ article div a, article pre a { color: #E74C3C; }
 article div a:hover, article pre a:hover { color: #fb4d3e; text-decoration: none; }
 article img { max-width: 100%; }
 
+.colorito article img {
+    background: url("/assets/resources/colorito/transparent.png");
+}
+
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
 article h1,
 article h2,
